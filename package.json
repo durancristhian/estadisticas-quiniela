@@ -1,0 +1,14 @@
+{
+  "name": "estadisticas-quiniela",
+  "version": "1.0.0",
+  "description": "Un pequeño análisis sobre lo que encontré analizando los números que salieron en la quiniela desde el 2011 al 2018",
+  "scripts": {
+    "generate-datasets": "node scripts/generate-datasets",
+    "generate-html": "node scripts/generate-html"
+  },
+  "author": "durancristhian@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "turtler": "^1.1.0"
+  }
+}
